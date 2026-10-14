@@ -4,7 +4,7 @@
 
 ### Calmer moments, smarter support.
 
-**A human-centered iOS concept for personalized caregiver support**
+**AI-inspired personalization · SwiftUI · Human-centered caregiver support**
 
 <img src="calme-product-overview.jpg" alt="Calme product overview showing the calming suggestions interface" width="520">
 
@@ -20,7 +20,7 @@
 
 
 
-**Human-centered iOS prototype · SwiftUI · Accessibility · Personalization**
+**Human-centered iOS prototype · SwiftUI · AI-inspired recommendation ranking · Accessibility**
 
 Calme explores how a lightweight mobile experience can help caregivers respond to sensory overload situations involving autistic children. Instead of asking users to navigate complex menus during a stressful moment, the app focuses on a short check-in followed by practical, personalized calming suggestions.
 
@@ -35,6 +35,18 @@ Caregivers may need to respond quickly to sensory triggers such as loud sounds, 
 3. **Feedback loop:** Record whether a suggestion helped.
 4. **Personalization:** Use previous caregiver feedback to improve future suggestion ordering.
 
+## AI & personalization
+
+Calme was developed in an AI foundation learning context, with a **feedback-informed recommendation approach** at the center of its product concept. The intended recommendation flow considers:
+
+- **Current context:** The sensory trigger and its reported intensity.
+- **Individual history:** Which calming strategies previously helped this child, based on caregiver feedback.
+- **Adaptive ordering:** Prioritize suggestions that appear more relevant to the current situation and past responses.
+
+After trying a suggestion, caregivers can record whether it helped. That feedback is intended to inform subsequent recommendations, making the experience more personalized over time.
+
+**Implementation scope:** This is a prototype concept involving recommendation-ranking logic, **not a claim that a trained machine-learning model or clinically validated AI system is deployed**. The repository has not been independently runtime-tested.
+
 ## Product principles
 
 - **Caregiver in control:** Suggestions support, rather than replace, human judgment.
@@ -47,7 +59,7 @@ Caregivers may need to respond quickly to sensory triggers such as loud sounds, 
 
 - **Swift & SwiftUI** — iOS interface development
 - **UX/UI design** — streamlined caregiver workflows
-- **Personalization logic** — feedback-informed recommendation ranking
+- **AI-inspired personalization** — context-aware, feedback-informed recommendation ranking
 - **Accessibility** — thoughtful interface design for stressful contexts
 
 ## Background

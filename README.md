@@ -1,4 +1,24 @@
-# Calme — Personalized Support for Caregivers
+<div align="center">
+
+# Calme
+
+### Calmer moments, smarter support.
+
+**A human-centered iOS concept for personalized caregiver support**
+
+<img src="calme-product-overview.jpg" alt="Calme product overview showing the calming suggestions interface" width="520">
+
+</div>
+
+---
+
+## Product preview
+
+<img src="calme-app-screens.jpg" alt="Three Calme app screens: personalized suggestions, caregiver feedback history, and progress insights" width="100%">
+
+*From left to right: personalized suggestions, history of previous experiences, and progress insights.*
+
+
 
 **Human-centered iOS prototype · SwiftUI · Accessibility · Personalization**
 

@@ -2,10 +2,15 @@ import SwiftUI
 
 struct ContentView: View {
 
+    // TabRouter is the single source of truth for which tab is active.
+    // Injected into the environment so every AppNavItem can read/write it.
     @State private var router = TabRouter()
 
     var body: some View {
         ZStack {
+            // All three stacks are always alive in the hierarchy (same as TabView).
+            // Only the active tab is visible and receives hit-testing.
+
             NavigationStack {
                 CalmeView()
             }

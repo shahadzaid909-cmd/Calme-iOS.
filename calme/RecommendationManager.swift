@@ -50,6 +50,8 @@ final class RecommendationManager {
     }
 }
 
+// MARK: - Recommendation Result
+
 struct RecommendationResult: Identifiable {
     let id = UUID()
     let name: String
